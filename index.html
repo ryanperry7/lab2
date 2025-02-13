@@ -25,7 +25,18 @@
                     placeholder="example@email.com"
                     autocomplete="email">
 
-                    
+                <label for="phone">Phone Number:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    pattern="[0-0]{0}-[0-0]{0}-[0-0]{0}"
+                    placeholder="123-456-7890"
+                    autocomplete="tel">
+                <small>Format: 123-456-7890</small>
+
+                
             </fieldset>
         </form>
     </main>
